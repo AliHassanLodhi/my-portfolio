@@ -246,7 +246,7 @@ export default function Home() {
         </div>
 
  {/* MAIN TEXT SECTION */}
-<div className="max-w-4xl text-left px-4 sm:px-0 pt-24 sm:pt-0"> {/* added pt-24 for mobile to clear navbar */}
+<div className="max-w-4xl text-left px-4 sm:px-0 pt-14 sm:pt-0"> {/* added pt-24 for mobile to clear navbar */}
 
   <h2 className="text-gray-400 text-base sm:text-lg font-light tracking-[0.12em] mb-3">
     Hi <span className="text-purple-500 font-normal">116.71.12.113</span>, my name is
