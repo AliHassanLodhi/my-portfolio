@@ -206,7 +206,7 @@ export default function Home() {
             <span
               className="rotate-90 tracking-wide text-sm -translate-y-22 hover:scale-105 transition-all duration-200 inline-block text-gray-300"
             >
-              alihassanlodhi@gmail.com
+              alihassanlodhi1@gmail.com
             </span>
           </a>
 
@@ -562,7 +562,7 @@ export default function Home() {
     <div className="flex items-center justify-center gap-6 mb-6 md:hidden text-gray-400">
       {/* Email */}
       <a href="mailto:alihassanlodhi@gmail.com" className="text-sm hover:text-purple-400 transition-colors">
-        alihassanlodhi@gmail.com
+        alihassanlodhi1@gmail.com
       </a>
       {/* Icons */}
       <a href="https://github.com/AliHassanLodhi" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">
