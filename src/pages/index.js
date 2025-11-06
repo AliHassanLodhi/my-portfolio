@@ -202,7 +202,7 @@ export default function Home() {
 
 
           {/* Email (Only this is rotated) */}
-          <a href="mailto:alihassanlodhi@gmail.com" className="cursor-pointer">
+          <a href="mailto:alihassanlodhi1@gmail.com" className="cursor-pointer">
             <span
               className="rotate-90 tracking-wide text-sm -translate-y-22 hover:scale-105 transition-all duration-200 inline-block text-gray-300"
             >
@@ -561,7 +561,7 @@ export default function Home() {
     {/* Mobile-only Email + Icons */}
     <div className="flex items-center justify-center gap-6 mb-6 md:hidden text-gray-400">
       {/* Email */}
-      <a href="mailto:alihassanlodhi@gmail.com" className="text-sm hover:text-purple-400 transition-colors">
+      <a href="mailto:alihassanlodhi1@gmail.com" className="text-sm hover:text-purple-400 transition-colors">
         alihassanlodhi1@gmail.com
       </a>
       {/* Icons */}
