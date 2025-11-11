@@ -475,6 +475,14 @@ export default function Home() {
                 />
               ))}
             </div>
+           <p
+  className="mt-2 text-sm font-medium text-purple-400 relative shining-text"
+  data-text="Swipe → & tap any image to view in full"
+>
+  Swipe → & tap any image to view in full
+</p>
+
+
           </div>
 
           {/* ===== PROJECT 2 ===== */}
@@ -502,6 +510,12 @@ export default function Home() {
                 />
               ))}
             </div>
+            <p
+  className="mt-2 text-sm font-medium text-purple-400 relative shining-text"
+  data-text="Swipe → & tap any image to view in full"
+>
+  Swipe → & tap any image to view in full
+</p>
           </div>
 
           {/* ===== PROJECT 3 ===== */}
@@ -531,6 +545,14 @@ export default function Home() {
                 />
               ))}
             </div>
+        <p
+  className="mt-2 text-sm font-medium text-purple-400 relative shining-text"
+  data-text="Swipe → & tap any image to view in full"
+>
+  Swipe → & tap any image to view in full
+</p>
+
+
           </div>
 
         </div>
