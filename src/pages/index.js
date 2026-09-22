@@ -223,7 +223,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://linkedin.com/in/ali-hassan-lodhi"
+              href="https://www.linkedin.com/in/ali-hassan-lodhi-a48883408/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform duration-200 hover:scale-110"
@@ -305,29 +305,37 @@ export default function Home() {
     <p className="text-gray-400 text-sm leading-relaxed mt-4">
       I have also built full-stack applications including a real-time chat app using Django, Python, and Firebase, allowing users to verify by email, add contacts, and start instant messaging, and a restaurant management web application using Angular, TypeScript, Node.js, Express.js, and RESTful APIs, featuring authentication, menu management, cart updates, and order processing with secure user experience.
     </p>
+    <br></br>
 
     <Link href="/certifications" legacyBehavior>
-      <a className="text-purple-400 hover:underline hover:underline-offset-2 cursor-pointer text-lg">
-        See all certifications here
-      </a>
+    <a className="text-purple-400 hover:underline hover:underline-offset-2 cursor-pointer text-3xl">
+  See all certifications here
+</a>
     </Link>
 
     {/* Skills List */}
     <div className="mt-8">
-      <h3 className="text-gray-300 text-xl mb-3 font-semibold">Tech I Work With:</h3>
+     <h3 className="text-purple-400 text-xl mb-3 font-semibold">Skills (Expertise) :</h3>
       <ul className="grid grid-cols-2 text-gray-400 gap-2 text-sm">
-        <li>• Python</li>
-        <li>• Java</li>
-        <li>• C++</li>
-        <li>• JavaScript / TypeScript</li>
-        <li>• HTML5 / CSS / Tailwind CSS</li>
-        <li>• Vue.js / Node.js</li>
-        <li>• Django / Angular / Laravel</li>
-        <li>• Firebase / RESTful APIs</li>
-        <li>• Flutter (Dart)</li>
-        <li>• AWS / Microsoft Azure</li>
-        <li>• Power BI / Tableau</li>
-        <li>• UI/UX + Wireframing</li>
+       <li className="mt-3">
+  • <span className="text-purple-400 text-base font-semibold">Programming Languages:</span>{" "}
+  <span className="text-gray-300 text-sm">HTML, CSS, JavaScript, Python, Java, SQL</span>
+</li>
+
+<li className="mt-3">
+  • <span className="text-purple-400 text-base font-semibold">Frameworks & Platforms:</span>{" "}
+  <span className="text-gray-300 text-sm">Angular, Vue.js, Firebase, RESTful APIs, AWS, Microsoft Azure</span>
+</li>
+
+<li className="mt-3">
+  • <span className="text-purple-400 text-base font-semibold">Tools & Technologies:</span>{" "}
+  <span className="text-gray-300 text-sm">VS Code, Cursor AI, Windsurf AI, GitHub, Power BI, Tableau, MS Office</span>
+</li>
+
+<li className="mt-3">
+  • <span className="text-purple-400 text-base font-semibold">Soft Skills:</span>{" "}
+  <span className="text-gray-300 text-sm">Leadership, Teamwork, Critical Thinking, Communication, Adaptability</span>
+</li>
       </ul>
     </div>
   </div>
@@ -350,13 +358,75 @@ export default function Home() {
         {/* Experience List */}
         <div className="max-w-3xl mx-auto space-y-12">
 
+          {/* IBEX */}
+<div>
+  <h3 className="text-2xl font-semibold text-purple-400">
+    Technical Support Specialist - IBEX Pakistan
+  </h3>
+  <p className="text-gray-500 mt-1 italic">On site (Jul 2026 - Present)</p>
+
+  <p className="text-gray-400 mt-2">
+    • Provide technical support to customers through phone, email, and chat while assisting with CRM-related issues.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Troubleshoot customer issues, identify root causes, and provide effective solutions while maintaining service quality.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Document customer interactions, cases, and resolutions accurately within CRM systems.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Handle escalations and follow SLA guidelines to ensure timely resolution of customer concerns.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Maintain customer satisfaction by delivering clear, professional, and solution-focused support.
+  </p>
+</div>
+
+
+{/* StayOvers */}
+<div>
+  <h3 className="text-2xl font-semibold text-purple-400">
+    Associate Software Engineer - StayOvers.pk
+  </h3>
+
+  <p className="text-gray-500 mt-1 italic">
+    Remote (Sept 2025 - Present)
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Developed and maintained web-based applications and internal software solutions.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Worked on frontend and backend development, API integration, and database management.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Collaborated with cross-functional teams to understand requirements and deliver software solutions.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Debugged and resolved application issues while improving performance and reliability.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Participated in testing, deployment, and ongoing maintenance of software features.
+  </p>
+
+  <p className="text-gray-400 mt-2">
+    • Used modern development tools and practices to build scalable and user-friendly applications.
+  </p>
+</div>
+
           {/* Softosol */}
           <div>
-            <h3 className="text-2xl font-semibold text-purple-400">Softosol</h3>
-            <p className="text-gray-500 mt-1 italic">  Web Development Intern @ Softosol (Apr 2024 - Jul 2024)</p>
-            <p className="text-gray-400 mt-2">
-
-              • Tech Stack: HTML5, CSS, Bootstrap, Angular TypeScript, Node.js, RestAPI, MongoDB  </p>
+            <h3 className="text-2xl font-semibold text-purple-400">Software Engineer Intern - Softosol</h3>
+            <p className="text-gray-500 mt-1 italic">  On site (Apr 2024 - Jul 2024)</p>
+        
             <p className="text-gray-400 mt-2">
               • Developed the company's landing page, enhancing online presence and user engagement.</p>
             <p className="text-gray-400 mt-2">
@@ -368,27 +438,11 @@ export default function Home() {
 
           </div>
 
-          {/* Final Year Project (FYP) */}
-          <div>
-            <h3 className="text-2xl font-semibold text-purple-400">Student Productivity System - FYP</h3>
-            <p className="text-gray-500 mt-1 italic">Student Productivity Management System</p>
-            <p className="text-gray-400 mt-2">
-
-              • Tech Stack: Laravel, Vue, Firebase, Flutter.  </p>
-            <p className="text-gray-400 mt-2">• Developed a Student productivity system that links up to their Google Classroom and allows them to maintain notes, manage projects,
-              and collaborate with their fellow students on projects.</p>
-            <p className="text-gray-400 mt-2">• It shall have a central module that shall be responsible for polling the information of the google classroom and then storing any new
-              addition in the firebase database. The backend shall have rest APIs accessing data from the firebase database and performing the
-              custom logic for each module and the frontend shall access those rest APIs and get the data and show it to the user.</p>
-
-
-          </div>
-
 
           {/* NUML */}
           <div>
             <h3 className="text-2xl font-semibold text-purple-400">National University of Modern Languages (NUML)</h3>
-            <p className="text-gray-500 mt-1 italic">Academic Projects</p>
+            <p className="text-gray-500 mt-1 italic">Academic Projects (Feb 2022 - June 2026)</p>
             <p className="text-gray-400 mt-2">
               • Worked on academic projects and research contributions during my studies at NUML.
             </p>
@@ -599,11 +653,14 @@ export default function Home() {
     </div>
 
     <div className="mt-8">
-      <a
-        className="inline-block border-2 border-purple-400 rounded-md px-8 py-3 text-white font-medium text-lg text-center transition-all duration-300 hover:bg-purple-400 hover:text-black"
-      >
-        Reach out anywhere you like.
-      </a>
+     <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=alihassanlodhi1@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block border-2 border-purple-400 rounded-md px-8 py-3 text-white font-medium text-lg text-center transition-all duration-300 hover:bg-purple-400 hover:text-black"
+>
+  Reach out anywhere you like.
+</a>
     </div>
   </div>
 </section>
